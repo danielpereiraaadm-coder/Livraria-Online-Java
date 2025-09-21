@@ -1,0 +1,22 @@
+{
+    // "version": "0.2.0" -> Define a versão do formato deste ficheiro de configuração, é um padrão do VS Code.
+    "version": "0.2.0",
+
+    // "configurations": [...] -> É uma lista que pode conter várias configurações de execução. No nosso caso, teremos apenas uma.
+    "configurations": [
+        {
+            "type": "java",
+            "name": "LivrariaOnline",
+            "request": "launch",
+            "mainClass": "br.com.livraria.main.LivrariaOnline",
+            "projectName": "LivrariaOnline_8eda09ea"
+        },
+        {
+            "type": "java",
+            "name": "Lançar LivrariaOnline",
+            "request": "launch",
+            "mainClass": "br.com.livraria.main.LivrariaOnline",
+            "projectName": "LivrariaOnline"
+        }
+    ]
+}

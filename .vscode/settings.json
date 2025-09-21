@@ -1,0 +1,7 @@
+{
+    // "java.project.sourcePaths": ["src/main/java"] -> Esta linha informa à extensão Java onde encontrar os seus ficheiros de código-fonte (os ficheiros .java). Estamos a dizer: "Olhe dentro da pasta 'src/main/java'".
+    "java.project.sourcePaths": ["src/main/java"],
+
+    // "java.project.outputPath": "bin" -> Esta linha diz onde os ficheiros compilados (os ficheiros .class) devem ser guardados. Estamos a dizer: "Coloque o resultado da compilação na pasta 'bin'".
+    "java.project.outputPath": "bin"
+}
